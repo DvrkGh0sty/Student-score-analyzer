@@ -49,7 +49,7 @@ def main():
             print("No Student Passed; average passing score: N/A")
 
         #Total Average
-        average_class_grade = sum(groups)/len(groups)
+        average_class_grade = sum(raw_scores)/len(raw_scores)
         print(f'Here is the class average: {average_class_grade}')
 
 main()
